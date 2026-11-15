@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tinydb-kv"  # "tinydb" is taken on PyPI by an unrelated project
+version = "1.0.0"
+description = "TinyDB - a lightweight persistent key-value database built from scratch"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+tinydb = "tinydb.cli:main"
+
+[tool.setuptools]
+packages = ["tinydb"]

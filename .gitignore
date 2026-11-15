@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+
+# database files created while trying things out
+*.db
+*.db.lock
+*.db.compact
+*.db.corrupt*
