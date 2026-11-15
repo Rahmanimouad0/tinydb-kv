@@ -1,5 +1,7 @@
 # TinyDB — A Lightweight Persistent Key-Value Database
 
+[![tests](https://github.com/Rahmanimouad0/tinydb-kv/actions/workflows/tests.yml/badge.svg)](https://github.com/Rahmanimouad0/tinydb-kv/actions/workflows/tests.yml)
+
 A small embedded key-value database built from scratch in pure Python, with no dependencies.
 It has an append-only log on disk, a hash index in memory, checksummed binary records,
 crash recovery, compaction and a Redis-style shell.
